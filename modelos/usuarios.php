@@ -1,4 +1,5 @@
 <?php
+require_once("connexion.php");
 class Usuario {
     public static function login($nombre, $pass) {
         $connBD = BD::crearInstancia();
